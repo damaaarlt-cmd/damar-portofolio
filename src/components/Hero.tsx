@@ -8,7 +8,7 @@ export default function Hero() {
   const reduce = useReducedMotion();
   const float = reduce ? {} : { y: [0, -10, 0] };
   return (
-    <section className="grid-bg relative min-h-screen overflow-hidden bg-brand px-5 pb-12 pt-28 md:px-10 md:pt-32">
+    <section className="grid-bg relative md:min-h-screen overflow-hidden bg-brand px-5 pb-12 pt-28 md:px-10 md:pt-32">
       <div className="relative mx-auto max-w-[1440px]">
         <h1 className="head">
           <span className="sr-only">{profile.name}: I design digital experiences that get remembered.</span>
