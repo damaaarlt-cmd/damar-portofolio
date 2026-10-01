@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap');
+@import "tailwindcss";
+@theme {
+  --color-brand: #6000DC;
+  --color-deep: #2E0070;
+  --color-sun: #FBCE03;
+  --color-pop: #FC3472;
+  --color-ink: #14001F;
+  --color-paper: #F4F2F7;
+  --font-display: "Bricolage Grotesque", Impact, sans-serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+}
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-sans); overflow-x: hidden; color: #14001F; background: #fff; }
+.grid-bg { background-image: linear-gradient(to right,#ffffff14 1px,transparent 1px),linear-gradient(to bottom,#ffffff14 1px,transparent 1px); background-size: 4rem 4rem; }
+.stack { text-shadow: .04em .07em 0 #2E0070; }
+.head { font-family: var(--font-display); font-weight: 800; text-transform: uppercase; letter-spacing: -0.03em; line-height: .88; }
+:focus-visible { outline: 3px solid #FBCE03; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { *, ::before, ::after { animation: none !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
