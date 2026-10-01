@@ -15,7 +15,7 @@ export const Badge = ({ text = "LET'S TALK • LET'S TALK • " }: { text?: stri
   <a href="#contact" className="relative grid aspect-square w-28 place-items-center rounded-full border-[3px] border-ink bg-sun text-ink transition-transform hover:scale-105 md:w-36">
     <svg viewBox="0 0 100 100" aria-hidden className="absolute inset-0 animate-[spin_16s_linear_infinite]">
       <path id="c" d="M50,50 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" fill="none" />
-      <text fontSize="10" fontWeight="700" letterSpacing="2.3" fill="currentColor"><textPath href="#c">{text}</textPath></text>
+      <text fontSize="10" fontWeight="700" letterSpacing="2.3" fill="currentColor"><textPath href="#c" textLength="210" lengthAdjust="spacing">{text}</textPath></text>
     </svg>
     <span className="sr-only">Let's talk</span><Star className="h-9 w-9" />
   </a>
