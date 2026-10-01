@@ -1,11 +1,11 @@
 // Edit everything about the portfolio here.
 export const profile = {
   name: 'Damar Lintang',
+  photo: '/damar.png', // put your photo in public/damar.jpg (empty = star)
   role: 'Digital Business Graduate • UI/UX Designer • Creative Problem Solver',
   intro: 'Digital Business graduate exploring UI/UX, digital products, web experiences and data-driven problem solving.',
   email: 'your@email.com',
   socials: [['LinkedIn', '#'], ['Instagram', '#'], ['Behance', '#'], ['GitHub', '#']] as [string, string][],
-  photo: '/damar.jpg',
 };
 export type Tone = 'brand' | 'sun' | 'ink';
 export type Project = {
