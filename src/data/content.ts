@@ -5,6 +5,7 @@ export const profile = {
   intro: 'Digital Business graduate exploring UI/UX, digital products, web experiences and data-driven problem solving.',
   email: 'your@email.com',
   socials: [['LinkedIn', '#'], ['Instagram', '#'], ['Behance', '#'], ['GitHub', '#']] as [string, string][],
+  photo: '/damar.jpg',
 };
 export type Tone = 'brand' | 'sun' | 'ink';
 export type Project = {
